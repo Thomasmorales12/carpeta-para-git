@@ -1,3 +1,46 @@
-body{
-    background-color: red;
+body {
+    width: 850px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: crimson;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* agregar flex al contenedor padre  */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo{
+    height: 50px;
 }
